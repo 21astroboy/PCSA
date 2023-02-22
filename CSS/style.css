@@ -1,0 +1,31 @@
+a{
+    text-decoration: none;
+    color: gray;
+}
+.header{
+    background-color: aquamarine;
+    text-align: justify;
+    width: 100%;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex; 
+}
+.menu-item{
+    padding-right: 30px;
+}
+ul{
+    list-style: none;
+}
+.img-responsive{
+    
+}
