@@ -1,0 +1,10 @@
+.Doctors{
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    margin-bottom: 0%;
+  }
+.doctor{
+    margin-left: 10px;
+    margin-right: 10px;
+}

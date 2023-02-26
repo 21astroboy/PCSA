@@ -5,36 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Menu</title>
-    <link rel="stylesheet" href="catalogue.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/catalogue.css" />
   </head>
-  <body>
-    <header>
-      <h1 align="center">Меню</h1>
-      <h2 align="center">
-        Сайт Краевой Клинической больницы №1 гор. Хабаровска
-      </h2>
-      <hr />
-      <img src="images/logo.png" alt="logo" />
-    </header>
+  <body background="images/background-menu.jpg">
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="menu">
+            <li class="menu-item">
+              <a href="catalogue.html">Меню</a>
+            </li>
+            <li class="menu-item">
+              <a href="">Что нового</a>
+            </li>
+          </ul>
+  
+          <div class="logo">
+            <a href="index.html">
+              <img class="logo-img" src="images/logo.png" width="120"  alt="logo">
+            </a>
+          </div>
+          <ul>
+           <li>
+             <a class="phone" href="tel:79999999" >Горячая линия:+7-999-99-99</a>
+          </li>
+          </ul>
+        </nav>
+      </div>
+      <hr>
+       <h1 align="center">Добро пожаловать!</h1>
+       <h2 align="center">Сайт Краевой Клинической больницы №1 гор. Хабаровска</h2>
+       <hr>
+       
+     </header>
     <section>
+      <h4 align="center">Меню</h4>
       <ul class="ul-container">
         <li>
-          <img src="images/doctors_team.jpg" width="70" alt="doctors_team" />
-          <p>Наши врачи</p>
+          <img src="images/doctors_team.jpg" width="100" alt="doctors_team" />
+          <a href="services.html">Врачебный состав</a>
         </li>
         <li>
-          <figure>
-            <img src="images/MRT.jpg" width="70" alt="Procedures" />
-            <figcapерtion>Перечень процедур</figcapерtion>
-          </figure>
+          
+            <img src="images/MRT.jpg" width="100" alt="Procedures" />
+            <a href="#">Предоставляемые услуги</a>
+          
         </li>
         <li>
-          <figure>
-            <img src="images/Contacts.png" width="70" alt="Contacts" />
-            <figcapерtion>Контакты</figcapерtion>
-          </figure>
+         
+            <img src="images/Contacts.png" width="100" alt="Contacts" />
+            <a href="#">Контакты</a>
+          
+        </li>
+        <li>
+          <img src="images/history.png" width="100" alt="">
+          <a href="history.html">История учреждения</a>
         </li>
       </ul>
     </section>
+    <section class="order">
+      <a class="headline-btn" href="#">Записаться на прием</a>
+    </section>
+    <hr>
+    <footer>© Все права защищены</footer>
   </body>
 </html>
